@@ -29,6 +29,8 @@ The project benchmarked **Linear Regression** against an ensemble **Random Fores
 | **Consumer (B2C)** | Random Forest + Log | 161.84 | 193.04% | Better representation of true variance and higher-end sales distribution. |
 | **Corporate (B2B)** | Linear Regression + Log | **229.17** | **155.61%** | Tends to underpredict high-value custom contracts. |
 | **Corporate (B2B)** | Random Forest + Log | 237.84 | 173.49% | Effectively captures non-linear category interactions. |
+### Visualizing Prediction Alignment
+![Actual vs. Predicted Sales](sales_comparison.png)
 
 ### 💡 Technical Insights & Takeaways
 
